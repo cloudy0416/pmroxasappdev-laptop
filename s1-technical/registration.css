@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #001f3f, #003366);
+    margin: 0;
+    padding: 30px 0;
+    color: #fff;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+    background: #0b2447;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+h3 {
+    margin-top: 30px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #3a6ea5;
+    color: #9ecbff;
+    font-size: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #dbe9ff;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #3a6ea5;
+    border-radius: 8px;
+    background: #133b6b;
+    color: white;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+input::placeholder {
+    color: #b8d4ff;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #66b2ff;
+    box-shadow: 0 0 8px rgba(102, 178, 255, 0.7);
+}
+
+.radio-group {
+    margin-top: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.radio-group label {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.radio-group input {
+    width: auto;
+}
+
+button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 30px;
+    background: linear-gradient(to right, #00509d, #1e90ff);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(to right, #1e90ff, #4da6ff);
+    transform: scale(1.02);
+}
+
+@media screen and (max-width: 650px) {
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+}
