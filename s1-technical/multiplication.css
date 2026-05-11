@@ -37,19 +37,19 @@ h1 {
     user-select: none;
 }
 
-/* navy blue cells */
+
 .dark {
     background: #1e3a5f;
     color: white;
 }
 
-/* light blue cells */
+
 .light {
     background: #4da6ff;
     color: #001f3f;
 }
 
-/* hover effect */
+
 .cell:hover {
     transform: scale(1.1);
     background: #87cefa !important;
@@ -57,7 +57,7 @@ h1 {
     box-shadow: 0 0 15px rgba(135, 206, 250, 0.9);
 }
 
-/* tablet */
+
 @media (max-width: 768px) {
     .cell {
         padding: 12px;

@@ -18,7 +18,7 @@ for ($row = 0; $row <= 10; $row++) {
 
         $value = $row * $col;
 
-        // alternating colors
+        
         if (($row + $col) % 2 == 0) {
             $class = "dark";
         } else {
